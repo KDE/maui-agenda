@@ -8,8 +8,6 @@ import org.mauikit.calendar 1.0 as Cal
 Maui.ApplicationWindow
 {
     id: root
-    title: qsTr("Astro")
-
 
     Maui.Dialog
     {
@@ -18,7 +16,6 @@ Maui.ApplicationWindow
         acceptButton.text: i18n("Create")
 
         onRejected: close()
-
         onAccepted:
         {
             Cal.CalendarManager.addIncidence(_eventPage.incidence)
@@ -98,9 +95,7 @@ Maui.ApplicationWindow
                 {
                     action: _newEventAction
                 }
-
             ]
-
 
             Maui.ListBrowser
             {
