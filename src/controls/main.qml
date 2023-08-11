@@ -9,11 +9,10 @@ Maui.ApplicationWindow
 {
     id: root
 
-    Maui.Dialog
+    Dialog
     {
         id: _eventDialog
-        headBar.visible: false
-        acceptButton.text: i18n("Create")
+//        acceptButton.text: i18n("Create")
 
         onRejected: close()
         onAccepted:
@@ -21,10 +20,9 @@ Maui.ApplicationWindow
             Cal.CalendarManager.addIncidence(_eventPage.incidence)
         }
 
-        Cal.EventPage
+        contentItem: Cal.EventPage
         {
             id: _eventPage
-            Layout.fillWidth: true
         }
     }
 
