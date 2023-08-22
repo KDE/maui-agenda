@@ -9,20 +9,34 @@ Maui.ApplicationWindow
 {
     id: root
 
-    Dialog
+    Maui.PopupPage
     {
         id: _eventDialog
-//        acceptButton.text: i18n("Create")
+        persistent: true
+        headBar.visible: false
 
-        onRejected: close()
-        onAccepted:
+actions: [
+
+    Action
+    {
+        text: i18n("Cancel")
+        onTriggered: _eventDialog.close()
+    },
+
+    Action
+    {
+        text: i18n("Create")
+        onTriggered:
         {
             Cal.CalendarManager.addIncidence(_eventPage.incidence)
         }
+    }
+]
 
-        contentItem: Cal.EventPage
+        Cal.EventPage
         {
             id: _eventPage
+            Layout.fillWidth: true
         }
     }
 
