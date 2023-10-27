@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(agenda VERSION 0.5.1)
+project(agenda VERSION 0.5.2)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
