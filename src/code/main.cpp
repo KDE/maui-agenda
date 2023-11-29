@@ -6,6 +6,7 @@
 #include <QQmlContext>
 
 #include <MauiKit3/Core/mauiapp.h>
+#include <MauiKit3/Calendar/moduleinfo.h>
 
 #include <KAboutData>
 #include <KI18n/KLocalizedString>
@@ -49,8 +50,14 @@ int main(int argc, char *argv[])
     about.setBugAddress(REPORT_PAGE);
     about.setOrganizationDomain(PROJECT_URI);
     about.setProgramLogo(app.windowIcon());
-    about.addComponent("Akonadi");
+
     about.addCredit(i18n("Kalendar Developers"));
+
+    const auto AkonadiData = MauiKitCalendar::aboutAkonadi();
+    about.addComponent(AkonadiData.name(), "", AkonadiData.version(), AkonadiData.webAddress());
+
+    const auto CalData = MauiKitCalendar::aboutData();
+    about.addComponent(CalData.name(), MauiKitCalendar::buildVersion(), CalData.version(), CalData.webAddress());
 
     KAboutData::setApplicationData(about);
     MauiApp::instance()->setIconName("qrc:/logo.svg");
