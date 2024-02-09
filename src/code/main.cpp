@@ -18,8 +18,7 @@
 #define PROJECT_NAME "Agenda"
 #define COMPONENT_NAME "agenda"
 #define PROJECT_DESCRIPTION "View and organize your events"
-#define PROJECT_YEAR "2022"
-#define CURRENT_PROJECT_YEAR "2023"
+
 #define PRODUCT_NAME "maui/agenda"
 #define PROJECT_PAGE "https://mauikit.org"
 #define REPORT_PAGE "https://invent.kde.org/maui/index-fm/-/issues"
@@ -36,14 +35,14 @@ int main(int argc, char *argv[])
     KLocalizedString::setApplicationDomain(COMPONENT_NAME);
 
     KAboutData about(QStringLiteral(COMPONENT_NAME),
-                     i18n(PROJECT_NAME),
+                     QStringLiteral(PROJECT_NAME),
                      PROJECT_VERSION_STRING,
                      i18n(PROJECT_DESCRIPTION),
                      KAboutLicense::LGPL_V3,
-                     QString("© %1-%2 %3 Development Team").arg(PROJECT_YEAR, CURRENT_PROJECT_YEAR, ORG_NAME),
+                     APP_COPYRIGHT_NOTICE,
                      QString(GIT_BRANCH) + "/" + QString(GIT_COMMIT_HASH));
 
-    about.addAuthor(i18n("Camilo Higuita"), i18n("Developer"), QStringLiteral("milo.h@aol.com"));
+    about.addAuthor(QStringLiteral("Camilo Higuita"), i18n("Developer"), QStringLiteral("milo.h@aol.com"));
 
     about.setHomepage(PROJECT_PAGE);
     about.setProductName(PRODUCT_NAME);
