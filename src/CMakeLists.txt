@@ -3,12 +3,13 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+remove_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_STRICT_ITERATORS -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_URL_CAST_FROM_STRING)
+
 set(project_SRCS
     code/main.cpp
-    assets/assets.qrc
-    )
+    assets/assets.qrc)
 
-qtquick_compiler_add_resources(project_QML_QRC controls/qml.qrc)
+qt_add_resources(project_QML_QRC controls/qml.qrc)
 
 add_executable(${PROJECT_NAME}
     ${project_SRCS}
@@ -19,14 +20,14 @@ target_compile_definitions(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME}
     PRIVATE
-    MauiKit3
-    MauiKit3::Calendar
+    MauiKit4
+    MauiKit4::Calendar
 
-    Qt5::Core
-    Qt5::Quick
-    Qt5::Widgets
+    Qt6::Core
+    Qt6::Quick
+    Qt6::Widgets
 
-    KF5::CoreAddons
-    KF5::I18n)
+    KF6::CoreAddons
+    KF6::I18n)
 
 install(TARGETS ${PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

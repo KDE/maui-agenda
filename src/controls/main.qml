@@ -1,9 +1,9 @@
-import QtQuick 2.15
-import QtQml 2.15
-import QtQuick.Controls 2.15
-import QtQuick.Layouts 1.12
-import org.mauikit.controls 1.3 as Maui
-import org.mauikit.calendar 1.0 as Cal
+import QtQuick
+import QtQml
+import QtQuick.Controls
+import QtQuick.Layouts
+import org.mauikit.controls as Maui
+import org.mauikit.calendar as Cal
 
 Maui.ApplicationWindow
 {
@@ -15,28 +15,29 @@ Maui.ApplicationWindow
         persistent: true
         headBar.visible: false
 
-actions: [
+        actions: [
 
-    Action
-    {
-        text: i18n("Cancel")
-        onTriggered: _eventDialog.close()
-    },
+            Action
+            {
+                text: i18n("Cancel")
+                onTriggered: _eventDialog.close()
+            },
 
-    Action
-    {
-        text: i18n("Create")
-        onTriggered:
-        {
-            Cal.CalendarManager.addIncidence(_eventPage.incidence)
-        }
-    }
-]
+            Action
+            {
+                text: i18n("Create")
+                onTriggered:
+                {
+                    Cal.CalendarManager.addIncidence(_eventPage.incidence)
+                }
+            }
+        ]
 
-        Cal.EventPage
+        stack: Cal.EventPage
         {
             id: _eventPage
             Layout.fillWidth: true
+            Layout.fillHeight: true
         }
     }
 
@@ -64,7 +65,6 @@ actions: [
                 {
                     icon.name: "application-menu"
 
-
                     MenuItem
                     {
                         contentItem: Column
@@ -79,7 +79,7 @@ actions: [
                                     text: model.display
 
                                     checked: model.checkState === 2
-                                                                    onTriggered: model.checkState = model.checkState === 0 ? 2 : 0
+                                    onTriggered: model.checkState = model.checkState === 0 ? 2 : 0
 
                                 }
                             }
@@ -195,15 +195,15 @@ actions: [
                         }
                     }
 
-}
+                }
             }
         }
 
         Maui.Page
         {
             anchors.fill: parent
-            showCSDControls: true
-//            title: _stackView.currentItem.title
+            Maui.Controls.showCSD: true
+            //            title: _stackView.currentItem.title
             headBar.background: null
             headBar.leftContent: [
                 ToolButton
