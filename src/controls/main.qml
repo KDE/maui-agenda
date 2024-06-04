@@ -203,7 +203,7 @@ Maui.ApplicationWindow
         {
             anchors.fill: parent
             Maui.Controls.showCSD: true
-            //            title: _stackView.currentItem.title
+            title: _stackView.currentItem.title
             headBar.background: null
             headBar.leftContent: [
                 ToolButton
@@ -257,14 +257,15 @@ Maui.ApplicationWindow
                 id:_stackView
                 anchors.fill: parent
                 clip: true
+
                 initialItem: Cal.YearView
                 {
                     id: _yearView
-                    onMonthClicked:
-                    {
-                        _stackView.push(_monthViewComponent)
-                        _stackView.currentItem.setToDate(_stackView.currentItem.addMonthsToDate(date, -1))
-                    }
+                    onMonthClicked: (date) =>
+                                    {
+                                        _stackView.push(_monthViewComponent)
+                                        _stackView.currentItem.setToDate(_stackView.currentItem.addMonthsToDate(date, -1))
+                                    }
                 }
 
 
