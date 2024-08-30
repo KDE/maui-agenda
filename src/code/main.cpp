@@ -17,11 +17,10 @@
 #define ORG_NAME "Maui"
 #define PROJECT_NAME "Agenda"
 #define COMPONENT_NAME "agenda"
-#define PROJECT_DESCRIPTION "View and organize your events"
 
 #define PRODUCT_NAME "maui/agenda"
 #define PROJECT_PAGE "https://mauikit.org"
-#define REPORT_PAGE "https://invent.kde.org/maui/index-fm/-/issues"
+#define REPORT_PAGE "https://invent.kde.org/maui/agenda/-/issues"
 
 int main(int argc, char *argv[])
 {
@@ -35,7 +34,7 @@ int main(int argc, char *argv[])
     KAboutData about(QStringLiteral(COMPONENT_NAME),
                      QStringLiteral(PROJECT_NAME),
                      PROJECT_VERSION_STRING,
-                     i18n(PROJECT_DESCRIPTION),
+                     i18n("View and organize your events"),
                      KAboutLicense::LGPL_V3,
                      APP_COPYRIGHT_NOTICE,
                      QString(GIT_BRANCH) + "/" + QString(GIT_COMMIT_HASH));
@@ -68,7 +67,7 @@ int main(int argc, char *argv[])
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/app/maui/agenda/controls/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
         if (!obj && url == objUrl)

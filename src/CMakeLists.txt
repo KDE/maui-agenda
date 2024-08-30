@@ -9,11 +9,13 @@ set(project_SRCS
     code/main.cpp
     assets/assets.qrc)
 
-qt_add_resources(project_QML_QRC controls/qml.qrc)
+qt_add_executable(${PROJECT_NAME}
+    ${project_SRCS})
 
-add_executable(${PROJECT_NAME}
-    ${project_SRCS}
-    ${project_QML_QRC})
+qt_add_qml_module(${PROJECT_NAME} URI app.maui.agenda
+    NO_PLUGIN
+    QML_FILES
+    controls/main.qml)
 
 target_compile_definitions(${PROJECT_NAME}
     PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)
