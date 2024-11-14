@@ -26,6 +26,7 @@ Maui.ApplicationWindow
             Action
             {
                 text: i18n("Create")
+                Maui.Controls.status: Maui.Controls.Positive
                 onTriggered:
                 {
                     Cal.CalendarManager.addIncidence(_eventPage.incidence)
