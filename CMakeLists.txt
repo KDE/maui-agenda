@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(agenda VERSION 1.0.1)
+project(agenda VERSION 1.0.2)
 add_compile_definitions(APP_COPYRIGHT_NOTICE="© 2022-2024 Maui Development Team")
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -68,9 +68,9 @@ add_subdirectory(src)
 
 ki18n_install(po)
 
-install(FILES src/data/project.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR} RENAME ${PROJECT_URI}.appdata.xml)
+install(FILES org.kde.agenda.metainfo.xml  DESTINATION ${KDE_INSTALL_METAINFODIR})
 
-install(FILES src/data/project.desktop DESTINATION ${KDE_INSTALL_APPDIR} RENAME ${PROJECT_URI}.desktop)
+install(FILES src/org.kde.agenda.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 
 install(FILES src/assets/logo.svg DESTINATION ${KDE_INSTALL_ICONDIR}/hicolor/scalable/apps RENAME ${PROJECT_NAME}.svg)
 
