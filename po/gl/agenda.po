@@ -1,0 +1,73 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the maui-agenda package.
+#
+# SPDX-FileCopyrightText: 2025 Adrián Chaves (Gallaecio)
+msgid ""
+msgstr ""
+"Project-Id-Version: maui-agenda\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-01-14 00:40+0000\n"
+"PO-Revision-Date: 2025-01-15 00:07+0100\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
+"Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.12.0\n"
+
+#: src/code/main.cpp:37
+#, kde-format
+msgid "View and organize your events"
+msgstr "Consulte e organice os seus eventos."
+
+#: src/code/main.cpp:42
+#, kde-format
+msgid "Developer"
+msgstr "Desenvolvemento."
+
+#: src/code/main.cpp:50
+#, kde-format
+msgid "Kalendar Developers"
+msgstr "Equipo desenvolvedor de Kalendar"
+
+#: src/controls/main.qml:22
+#, kde-format
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/controls/main.qml:28
+#, kde-format
+msgid "Create"
+msgstr "Crear"
+
+#: src/controls/main.qml:92
+#, kde-format
+msgid "Settings"
+msgstr "Configuración"
+
+#: src/controls/main.qml:98
+#, kde-format
+msgid "About"
+msgstr "Sobre"
+
+#: src/controls/main.qml:119
+#, kde-format
+msgid "Empty!"
+msgstr "Non hai nada!"
+
+#: src/controls/main.qml:235
+#, kde-format
+msgid "Previous Year"
+msgstr "Ano anterior"
+
+#: src/controls/main.qml:243
+#, kde-format
+msgid "Today"
+msgstr "Hoxe"
+
+#: src/controls/main.qml:250
+#, kde-format
+msgid "Next Year"
+msgstr "Seguinte ano"
