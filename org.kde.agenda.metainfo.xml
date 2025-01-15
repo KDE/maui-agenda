@@ -4,9 +4,36 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0</project_license>
   <name>Agenda</name>
+  <name xml:lang="ca">Agenda</name>
+  <name xml:lang="es">Agenda</name>
+  <name xml:lang="eu">Agenda</name>
+  <name xml:lang="gl">Axenda</name>
+  <name xml:lang="nl">Agenda</name>
+  <name xml:lang="sl">Agenda</name>
+  <name xml:lang="tr">Ajanda</name>
+  <name xml:lang="uk">Порядок денний</name>
+  <name xml:lang="x-test">xxAgendaxx</name>
   <summary>Calendar and events manager</summary>
+  <summary xml:lang="ca">Gestor de calendari i esdeveniments</summary>
+  <summary xml:lang="es">Gestor de calendario y eventos</summary>
+  <summary xml:lang="eu">Egutegi eta ekitaldi kudeatzailea</summary>
+  <summary xml:lang="gl">Xestor de calendarios e eventos.</summary>
+  <summary xml:lang="nl">Agenda en evenementenbeheerder</summary>
+  <summary xml:lang="sl">Koledar in upravljalnik dogodkov</summary>
+  <summary xml:lang="tr">Takvim ve etkinlik yöneticisi</summary>
+  <summary xml:lang="uk">Засіб керування календарем та подіями</summary>
+  <summary xml:lang="x-test">xxCalendar and events managerxx</summary>
   <description>
     <p>Manage your events.</p>
+    <p xml:lang="ca">Gestioneu els vostres esdeveniments.</p>
+    <p xml:lang="es">Organice sus eventos.</p>
+    <p xml:lang="eu">Kudeatu zure ekitaldiak.</p>
+    <p xml:lang="gl">Xestione os seus eventos.</p>
+    <p xml:lang="nl">Uw evenementen beheren.</p>
+    <p xml:lang="sl">Upravljajte svoje dogodke.</p>
+    <p xml:lang="tr">Etkinliklerinizi yönetin.</p>
+    <p xml:lang="uk">Керування вашими подіями.</p>
+    <p xml:lang="x-test">xxManage your events.xx</p>
   </description>
   <url type="homepage">https://mauikit.org/</url>
   <url type="bugtracker">https://invent.kde.org/maui/agenda/-/issues</url>
@@ -14,6 +41,15 @@
   <screenshots>
     <screenshot type="default">
       <caption>Agenda - mobile version</caption>
+      <caption xml:lang="ca">Agenda - Versió mòbil</caption>
+      <caption xml:lang="es">Agenda - versión móvil</caption>
+      <caption xml:lang="eu">Agenda - mugikorrerako bertsioa</caption>
+      <caption xml:lang="gl">Versión móbil de Axenda.</caption>
+      <caption xml:lang="nl">Agenda - mobiele versie</caption>
+      <caption xml:lang="sl">Agenda - mobilna različica</caption>
+      <caption xml:lang="tr">Ajanda — Taşınabilir sürüm</caption>
+      <caption xml:lang="uk">Порядок денний – мобільна версія</caption>
+      <caption xml:lang="x-test">xxAgenda - mobile versionxx</caption>
       <image type="source" width="2899" height="2326">
        https://mauikit.org/wp-content/uploads/2022/11/agenda-scaled.jpg
       </image>
@@ -29,19 +65,19 @@
   </recommends>
   <content_rating type="oars-1.0"/>
   <project_group>KDE</project_group>
-      <releases>
-        <release version="1.0.1" date="2024-12-02">
-          <url>https://mauikit.org/blog/maui-release-briefing-7/</url>
-        </release>
-        <release version="1.0.0" date="2024-09-09">
-          <url>https://mauikit.org/blog/maui-release-briefing-6/</url>
-        </release>
-        <release version="0.5.3" date="2024-02-26">
-          <url>https://mauikit.org/blog/maui-release-briefing-5/</url>
-        </release>
-      <release version="0.5.2" date="2023-11-30">
-        <url>https://mauikit.org/blog/maui-release-briefing-4/</url>
-      </release>
+  <releases>
+    <release version="1.0.1" date="2024-12-02">
+      <url>https://mauikit.org/blog/maui-release-briefing-7/</url>
+    </release>
+    <release version="1.0.0" date="2024-09-09">
+      <url>https://mauikit.org/blog/maui-release-briefing-6/</url>
+    </release>
+    <release version="0.5.3" date="2024-02-26">
+      <url>https://mauikit.org/blog/maui-release-briefing-5/</url>
+    </release>
+    <release version="0.5.2" date="2023-11-30">
+      <url>https://mauikit.org/blog/maui-release-briefing-4/</url>
+    </release>
     <release version="0.5.1" date="2023-08-28">
       <url>https://mauikit.org/blog/maui-release-briefing-3/</url>
     </release>
