@@ -8,8 +8,11 @@
   <name xml:lang="es">Agenda</name>
   <name xml:lang="eu">Agenda</name>
   <name xml:lang="gl">Axenda</name>
+  <name xml:lang="he">סדר יום</name>
+  <name xml:lang="ka">დღის წესრიგი</name>
   <name xml:lang="nl">Agenda</name>
   <name xml:lang="sl">Agenda</name>
+  <name xml:lang="sv">Agenda</name>
   <name xml:lang="tr">Ajanda</name>
   <name xml:lang="uk">Порядок денний</name>
   <name xml:lang="x-test">xxAgendaxx</name>
@@ -18,8 +21,11 @@
   <summary xml:lang="es">Gestor de calendario y eventos</summary>
   <summary xml:lang="eu">Egutegi eta ekitaldi kudeatzailea</summary>
   <summary xml:lang="gl">Xestor de calendarios e eventos.</summary>
+  <summary xml:lang="he">מנהל לוח שנה ואירועים</summary>
+  <summary xml:lang="ka">კალენდრისა და მოვლენების მმართველი</summary>
   <summary xml:lang="nl">Agenda en evenementenbeheerder</summary>
   <summary xml:lang="sl">Koledar in upravljalnik dogodkov</summary>
+  <summary xml:lang="sv">Kalender och händelsehantering</summary>
   <summary xml:lang="tr">Takvim ve etkinlik yöneticisi</summary>
   <summary xml:lang="uk">Засіб керування календарем та подіями</summary>
   <summary xml:lang="x-test">xxCalendar and events managerxx</summary>
@@ -29,8 +35,11 @@
     <p xml:lang="es">Organice sus eventos.</p>
     <p xml:lang="eu">Kudeatu zure ekitaldiak.</p>
     <p xml:lang="gl">Xestione os seus eventos.</p>
+    <p xml:lang="he">ניהול האירועים שלך.</p>
+    <p xml:lang="ka">მართეთ თქვენი მოვლენები.</p>
     <p xml:lang="nl">Uw evenementen beheren.</p>
     <p xml:lang="sl">Upravljajte svoje dogodke.</p>
+    <p xml:lang="sv">Hantera händelser.</p>
     <p xml:lang="tr">Etkinliklerinizi yönetin.</p>
     <p xml:lang="uk">Керування вашими подіями.</p>
     <p xml:lang="x-test">xxManage your events.xx</p>
@@ -45,8 +54,11 @@
       <caption xml:lang="es">Agenda - versión móvil</caption>
       <caption xml:lang="eu">Agenda - mugikorrerako bertsioa</caption>
       <caption xml:lang="gl">Versión móbil de Axenda.</caption>
+      <caption xml:lang="he">סדר יום - הגרסה לניידים</caption>
+      <caption xml:lang="ka">დღის წესრიგი - მობილური ვერსია</caption>
       <caption xml:lang="nl">Agenda - mobiele versie</caption>
       <caption xml:lang="sl">Agenda - mobilna različica</caption>
+      <caption xml:lang="sv">Agenda - mobilversion</caption>
       <caption xml:lang="tr">Ajanda — Taşınabilir sürüm</caption>
       <caption xml:lang="uk">Порядок денний – мобільна версія</caption>
       <caption xml:lang="x-test">xxAgenda - mobile versionxx</caption>
