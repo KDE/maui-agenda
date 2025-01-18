@@ -5,6 +5,7 @@
   <project_license>LGPL-3.0</project_license>
   <name>Agenda</name>
   <name xml:lang="ca">Agenda</name>
+  <name xml:lang="ca-valencia">Agenda</name>
   <name xml:lang="es">Agenda</name>
   <name xml:lang="eu">Agenda</name>
   <name xml:lang="fr">Agenda</name>
@@ -19,6 +20,7 @@
   <name xml:lang="x-test">xxAgendaxx</name>
   <summary>Calendar and events manager</summary>
   <summary xml:lang="ca">Gestor de calendari i esdeveniments</summary>
+  <summary xml:lang="ca-valencia">Gestor de calendari i esdeveniments</summary>
   <summary xml:lang="es">Gestor de calendario y eventos</summary>
   <summary xml:lang="eu">Egutegi eta ekitaldi kudeatzailea</summary>
   <summary xml:lang="fr">Agenda et gestionnaire d'évènements</summary>
@@ -34,6 +36,7 @@
   <description>
     <p>Manage your events.</p>
     <p xml:lang="ca">Gestioneu els vostres esdeveniments.</p>
+    <p xml:lang="ca-valencia">Gestioneu els vostres esdeveniments.</p>
     <p xml:lang="es">Organice sus eventos.</p>
     <p xml:lang="eu">Kudeatu zure ekitaldiak.</p>
     <p xml:lang="fr">Gérer vos évènements.</p>
@@ -54,6 +57,7 @@
     <screenshot type="default">
       <caption>Agenda - mobile version</caption>
       <caption xml:lang="ca">Agenda - Versió mòbil</caption>
+      <caption xml:lang="ca-valencia">Agenda - Versió mòbil</caption>
       <caption xml:lang="es">Agenda - versión móvil</caption>
       <caption xml:lang="eu">Agenda - mugikorrerako bertsioa</caption>
       <caption xml:lang="fr">Agenda - Version mobile</caption>
