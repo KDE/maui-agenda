@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: maui-agenda\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-14 00:40+0000\n"
-"PO-Revision-Date: 2025-01-15 00:07+0100\n"
+"PO-Revision-Date: 2025-01-19 11:51+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -55,7 +55,7 @@ msgstr "Sobre"
 #: src/controls/main.qml:119
 #, kde-format
 msgid "Empty!"
-msgstr "Non hai nada!"
+msgstr "Está baleira."
 
 #: src/controls/main.qml:235
 #, kde-format
