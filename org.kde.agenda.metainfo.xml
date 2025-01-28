@@ -11,6 +11,7 @@
   <name xml:lang="fr">Agenda</name>
   <name xml:lang="gl">Axenda</name>
   <name xml:lang="he">סדר יום</name>
+  <name xml:lang="it">Agenda</name>
   <name xml:lang="ka">დღის წესრიგი</name>
   <name xml:lang="nl">Agenda</name>
   <name xml:lang="sl">Agenda</name>
@@ -26,6 +27,7 @@
   <summary xml:lang="fr">Agenda et gestionnaire d'évènements</summary>
   <summary xml:lang="gl">Xestor de calendarios e eventos.</summary>
   <summary xml:lang="he">מנהל לוח שנה ואירועים</summary>
+  <summary xml:lang="it">Gestore calendario ed eventi</summary>
   <summary xml:lang="ka">კალენდრისა და მოვლენების მმართველი</summary>
   <summary xml:lang="nl">Agenda en evenementenbeheerder</summary>
   <summary xml:lang="sl">Koledar in upravljalnik dogodkov</summary>
@@ -42,6 +44,7 @@
     <p xml:lang="fr">Gérer vos évènements.</p>
     <p xml:lang="gl">Xestione os seus eventos.</p>
     <p xml:lang="he">ניהול האירועים שלך.</p>
+    <p xml:lang="it">Gestisci i tuoi eventi.</p>
     <p xml:lang="ka">მართეთ თქვენი მოვლენები.</p>
     <p xml:lang="nl">Uw evenementen beheren.</p>
     <p xml:lang="sl">Upravljajte svoje dogodke.</p>
@@ -63,6 +66,7 @@
       <caption xml:lang="fr">Agenda - Version mobile</caption>
       <caption xml:lang="gl">Versión móbil de Axenda.</caption>
       <caption xml:lang="he">סדר יום - הגרסה לניידים</caption>
+      <caption xml:lang="it">Agenda - versione mobile</caption>
       <caption xml:lang="ka">დღის წესრიგი - მობილური ვერსია</caption>
       <caption xml:lang="nl">Agenda - mobiele versie</caption>
       <caption xml:lang="sl">Agenda - mobilna različica</caption>
