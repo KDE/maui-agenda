@@ -21,6 +21,7 @@
   <name xml:lang="tr">Ajanda</name>
   <name xml:lang="uk">Порядок денний</name>
   <name xml:lang="x-test">xxAgendaxx</name>
+  <name xml:lang="zh-TW">Agenda</name>
   <summary>Calendar and events manager</summary>
   <summary xml:lang="ca">Gestor de calendari i esdeveniments</summary>
   <summary xml:lang="ca-valencia">Gestor de calendari i esdeveniments</summary>
@@ -39,6 +40,7 @@
   <summary xml:lang="tr">Takvim ve etkinlik yöneticisi</summary>
   <summary xml:lang="uk">Засіб керування календарем та подіями</summary>
   <summary xml:lang="x-test">xxCalendar and events managerxx</summary>
+  <summary xml:lang="zh-TW">行事曆與活動管理工具</summary>
   <description>
     <p>Manage your events.</p>
     <p xml:lang="ca">Gestioneu els vostres esdeveniments.</p>
@@ -58,6 +60,7 @@
     <p xml:lang="tr">Etkinliklerinizi yönetin.</p>
     <p xml:lang="uk">Керування вашими подіями.</p>
     <p xml:lang="x-test">xxManage your events.xx</p>
+    <p xml:lang="zh-TW">管理您的活動。</p>
   </description>
   <url type="homepage">https://mauikit.org/</url>
   <url type="bugtracker">https://invent.kde.org/maui/agenda/-/issues</url>
@@ -82,6 +85,7 @@
       <caption xml:lang="tr">Ajanda — Taşınabilir sürüm</caption>
       <caption xml:lang="uk">Порядок денний – мобільна версія</caption>
       <caption xml:lang="x-test">xxAgenda - mobile versionxx</caption>
+      <caption xml:lang="zh-TW">Agenda - 行動版</caption>
       <image type="source" width="2899" height="2326">
        https://mauikit.org/wp-content/uploads/2022/11/agenda-scaled.jpg
       </image>
