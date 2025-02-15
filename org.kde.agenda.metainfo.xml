@@ -8,6 +8,7 @@
   <name xml:lang="ca-valencia">Agenda</name>
   <name xml:lang="es">Agenda</name>
   <name xml:lang="eu">Agenda</name>
+  <name xml:lang="fi">Agenda</name>
   <name xml:lang="fr">Agenda</name>
   <name xml:lang="gl">Axenda</name>
   <name xml:lang="he">סדר יום</name>
@@ -27,6 +28,7 @@
   <summary xml:lang="ca-valencia">Gestor de calendari i esdeveniments</summary>
   <summary xml:lang="es">Gestor de calendario y eventos</summary>
   <summary xml:lang="eu">Egutegi eta ekitaldi kudeatzailea</summary>
+  <summary xml:lang="fi">Kalenteri ja tapahtumienhallinta</summary>
   <summary xml:lang="fr">Agenda et gestionnaire d'évènements</summary>
   <summary xml:lang="gl">Xestor de calendarios e eventos.</summary>
   <summary xml:lang="he">מנהל לוח שנה ואירועים</summary>
@@ -47,6 +49,7 @@
     <p xml:lang="ca-valencia">Gestioneu els vostres esdeveniments.</p>
     <p xml:lang="es">Organice sus eventos.</p>
     <p xml:lang="eu">Kudeatu zure ekitaldiak.</p>
+    <p xml:lang="fi">Hallinnoi tapahtumiasi.</p>
     <p xml:lang="fr">Gérer vos évènements.</p>
     <p xml:lang="gl">Xestione os seus eventos.</p>
     <p xml:lang="he">ניהול האירועים שלך.</p>
@@ -72,6 +75,7 @@
       <caption xml:lang="ca-valencia">Agenda - Versió mòbil</caption>
       <caption xml:lang="es">Agenda - versión móvil</caption>
       <caption xml:lang="eu">Agenda - mugikorrerako bertsioa</caption>
+      <caption xml:lang="fi">Agenda – mobiiliversio</caption>
       <caption xml:lang="fr">Agenda - Version mobile</caption>
       <caption xml:lang="gl">Versión móbil de Axenda.</caption>
       <caption xml:lang="he">סדר יום - הגרסה לניידים</caption>
