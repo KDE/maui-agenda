@@ -14,6 +14,7 @@
   <name xml:lang="he">סדר יום</name>
   <name xml:lang="it">Agenda</name>
   <name xml:lang="ka">დღის წესრიგი</name>
+  <name xml:lang="ko">Agenda</name>
   <name xml:lang="lv">Dienaskārtība</name>
   <name xml:lang="nl">Agenda</name>
   <name xml:lang="pl">Rozkład zajęć</name>
@@ -34,6 +35,7 @@
   <summary xml:lang="he">מנהל לוח שנה ואירועים</summary>
   <summary xml:lang="it">Gestore calendario ed eventi</summary>
   <summary xml:lang="ka">კალენდრისა და მოვლენების მმართველი</summary>
+  <summary xml:lang="ko">캘린더와 이벤트 관리 도구</summary>
   <summary xml:lang="lv">Kalendāra un notikumu pārvaldnieks</summary>
   <summary xml:lang="nl">Agenda en evenementenbeheerder</summary>
   <summary xml:lang="pl">Zarządzanie kalendarzem i wydarzeniami</summary>
@@ -55,6 +57,7 @@
     <p xml:lang="he">ניהול האירועים שלך.</p>
     <p xml:lang="it">Gestisci i tuoi eventi.</p>
     <p xml:lang="ka">მართეთ თქვენი მოვლენები.</p>
+    <p xml:lang="ko">내 이벤트를 관리합니다.</p>
     <p xml:lang="lv">Pārvaldiet savus notikumus.</p>
     <p xml:lang="nl">Uw evenementen beheren.</p>
     <p xml:lang="pl">Zarządzaj swoimi wydarzeniami.</p>
@@ -81,6 +84,7 @@
       <caption xml:lang="he">סדר יום - הגרסה לניידים</caption>
       <caption xml:lang="it">Agenda - versione mobile</caption>
       <caption xml:lang="ka">დღის წესრიგი - მობილური ვერსია</caption>
+      <caption xml:lang="ko">Agenda - 모바일 버전</caption>
       <caption xml:lang="lv">Dienaskārtība — mobilā versija</caption>
       <caption xml:lang="nl">Agenda - mobiele versie</caption>
       <caption xml:lang="pl">Rozkład zajęć - wersja przenośna</caption>
