@@ -4,6 +4,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0</project_license>
   <name>Agenda</name>
+  <name xml:lang="ar">جدول الأعمال</name>
   <name xml:lang="ca">Agenda</name>
   <name xml:lang="ca-valencia">Agenda</name>
   <name xml:lang="es">Agenda</name>
@@ -25,6 +26,7 @@
   <name xml:lang="x-test">xxAgendaxx</name>
   <name xml:lang="zh-TW">Agenda</name>
   <summary>Calendar and events manager</summary>
+  <summary xml:lang="ar">مدير التقويم والأحداث</summary>
   <summary xml:lang="ca">Gestor de calendari i esdeveniments</summary>
   <summary xml:lang="ca-valencia">Gestor de calendari i esdeveniments</summary>
   <summary xml:lang="es">Gestor de calendario y eventos</summary>
@@ -47,6 +49,7 @@
   <summary xml:lang="zh-TW">行事曆與活動管理工具</summary>
   <description>
     <p>Manage your events.</p>
+    <p xml:lang="ar">أدِر فعالياتك.</p>
     <p xml:lang="ca">Gestioneu els vostres esdeveniments.</p>
     <p xml:lang="ca-valencia">Gestioneu els vostres esdeveniments.</p>
     <p xml:lang="es">Organice sus eventos.</p>
@@ -74,6 +77,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Agenda - mobile version</caption>
+      <caption xml:lang="ar">جدول الأعمال - نسخة الجوال</caption>
       <caption xml:lang="ca">Agenda - Versió mòbil</caption>
       <caption xml:lang="ca-valencia">Agenda - Versió mòbil</caption>
       <caption xml:lang="es">Agenda - versión móvil</caption>
