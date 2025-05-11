@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Agenda
+Name[ar]=جدول الأعمال
 Name[ca]=Agenda
 Name[ca@valencia]=Agenda
 Name[es]=Agenda
@@ -21,6 +22,7 @@ Name[uk]=Порядок денний
 Name[x-test]=xxAgendaxx
 Name[zh_TW]=Agenda
 Comment=Organize events in the calendar
+Comment[ar]=نظّم الأحداث في التقويم
 Comment[ca]=Organitza els esdeveniments en el calendari
 Comment[ca@valencia]=Organitza els esdeveniments en el calendari
 Comment[es]=Organizar eventos del calendario
@@ -46,6 +48,7 @@ Exec=agenda %U
 Terminal=false
 Type=Application
 GenericName=Calendar
+GenericName[ar]=التّقويم
 GenericName[ca]=Calendari
 GenericName[ca@valencia]=Calendari
 GenericName[es]=Calendario
