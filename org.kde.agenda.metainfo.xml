@@ -19,6 +19,7 @@
   <name xml:lang="lv">Dienaskārtība</name>
   <name xml:lang="nl">Agenda</name>
   <name xml:lang="pl">Rozkład zajęć</name>
+  <name xml:lang="pt-BR">Agenda</name>
   <name xml:lang="sl">Agenda</name>
   <name xml:lang="sv">Agenda</name>
   <name xml:lang="tr">Ajanda</name>
@@ -41,6 +42,7 @@
   <summary xml:lang="lv">Kalendāra un notikumu pārvaldnieks</summary>
   <summary xml:lang="nl">Agenda en evenementenbeheerder</summary>
   <summary xml:lang="pl">Zarządzanie kalendarzem i wydarzeniami</summary>
+  <summary xml:lang="pt-BR">Gerenciador de eventos e calendário</summary>
   <summary xml:lang="sl">Koledar in upravljalnik dogodkov</summary>
   <summary xml:lang="sv">Kalender och händelsehantering</summary>
   <summary xml:lang="tr">Takvim ve etkinlik yöneticisi</summary>
@@ -64,6 +66,7 @@
     <p xml:lang="lv">Pārvaldiet savus notikumus.</p>
     <p xml:lang="nl">Uw evenementen beheren.</p>
     <p xml:lang="pl">Zarządzaj swoimi wydarzeniami.</p>
+    <p xml:lang="pt-BR">Gerencie seus eventos.</p>
     <p xml:lang="sl">Upravljajte svoje dogodke.</p>
     <p xml:lang="sv">Hantera händelser.</p>
     <p xml:lang="tr">Etkinliklerinizi yönetin.</p>
@@ -92,6 +95,7 @@
       <caption xml:lang="lv">Dienaskārtība — mobilā versija</caption>
       <caption xml:lang="nl">Agenda - mobiele versie</caption>
       <caption xml:lang="pl">Rozkład zajęć - wersja przenośna</caption>
+      <caption xml:lang="pt-BR">Agenda - versão para celular</caption>
       <caption xml:lang="sl">Agenda - mobilna različica</caption>
       <caption xml:lang="sv">Agenda - mobilversion</caption>
       <caption xml:lang="tr">Ajanda — Taşınabilir sürüm</caption>
