@@ -20,54 +20,54 @@ msgstr ""
 #: src/code/main.cpp:37
 #, kde-format
 msgid "View and organize your events"
-msgstr ""
+msgstr "查看和组织您的活动"
 
 #: src/code/main.cpp:42
 #, kde-format
 msgid "Developer"
-msgstr ""
+msgstr "开发人员 "
 
 #: src/code/main.cpp:50
 #, kde-format
 msgid "Kalendar Developers"
-msgstr ""
+msgstr "Kalendar 开发者"
 
 #: src/controls/main.qml:22
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/controls/main.qml:28
 #, kde-format
 msgid "Create"
-msgstr ""
+msgstr "创建"
 
 #: src/controls/main.qml:92
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: src/controls/main.qml:98
 #, kde-format
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: src/controls/main.qml:119
 #, kde-format
 msgid "Empty!"
-msgstr ""
+msgstr "空! "
 
 #: src/controls/main.qml:235
 #, kde-format
 msgid "Previous Year"
-msgstr ""
+msgstr "上一年 "
 
 #: src/controls/main.qml:243
 #, kde-format
 msgid "Today"
-msgstr ""
+msgstr "今天"
 
 #: src/controls/main.qml:250
 #, kde-format
 msgid "Next Year"
-msgstr ""
+msgstr "下一年 "
