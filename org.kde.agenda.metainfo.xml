@@ -58,6 +58,7 @@
     <p xml:lang="ar">أدِر فعالياتك.</p>
     <p xml:lang="ca">Gestioneu els vostres esdeveniments.</p>
     <p xml:lang="ca-valencia">Gestioneu els vostres esdeveniments.</p>
+    <p xml:lang="cs">Spravujte svoje události.</p>
     <p xml:lang="es">Organice sus eventos.</p>
     <p xml:lang="eu">Kudeatu zure ekitaldiak.</p>
     <p xml:lang="fi">Hallinnoi tapahtumiasi.</p>
@@ -88,6 +89,7 @@
       <caption xml:lang="ar">جدول الأعمال - نسخة الجوال</caption>
       <caption xml:lang="ca">Agenda - Versió mòbil</caption>
       <caption xml:lang="ca-valencia">Agenda - Versió mòbil</caption>
+      <caption xml:lang="cs">Agenda - mobilní verze</caption>
       <caption xml:lang="es">Agenda - versión móvil</caption>
       <caption xml:lang="eu">Agenda - mugikorrerako bertsioa</caption>
       <caption xml:lang="fi">Agenda – mobiiliversio</caption>
