@@ -7,20 +7,20 @@ msgstr ""
 "Project-Id-Version: maui-agenda\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:51+0000\n"
-"PO-Revision-Date: 2026-03-17 10:25+0100\n"
-"Last-Translator:  Vít Pelčák <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-05-05 14:06+0200\n"
+"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.0\n"
 
 #: src/code/main.cpp:37
 #, kde-format
 msgid "View and organize your events"
-msgstr ""
+msgstr "Prohlížejte a organizujte vaše události"
 
 #: src/code/main.cpp:42
 #, kde-format
@@ -30,7 +30,7 @@ msgstr "Vývojář"
 #: src/code/main.cpp:50
 #, kde-format
 msgid "Kalendar Developers"
-msgstr ""
+msgstr "Vývojáři aplikace Kalendar"
 
 #: src/controls/main.qml:22
 #, kde-format
