@@ -26,6 +26,7 @@
   <name xml:lang="sl">Agenda</name>
   <name xml:lang="sv">Agenda</name>
   <name xml:lang="tr">Ajanda</name>
+  <name xml:lang="ug">كۈنتەرتىپ</name>
   <name xml:lang="uk">Порядок денний</name>
   <name xml:lang="zh-CN">日程</name>
   <name xml:lang="zh-TW">Agenda</name>
@@ -52,6 +53,7 @@
   <summary xml:lang="sl">Koledar in upravljalnik dogodkov</summary>
   <summary xml:lang="sv">Kalender och händelsehantering</summary>
   <summary xml:lang="tr">Takvim ve etkinlik yöneticisi</summary>
+  <summary xml:lang="ug">يىلنامە ۋە پائالىيەت باشقۇرغۇچ</summary>
   <summary xml:lang="uk">Засіб керування календарем та подіями</summary>
   <summary xml:lang="zh-CN">日历和活动管理器</summary>
   <summary xml:lang="zh-TW">行事曆與活動管理工具</summary>
@@ -79,6 +81,7 @@
     <p xml:lang="sl">Upravljajte svoje dogodke.</p>
     <p xml:lang="sv">Hantera händelser.</p>
     <p xml:lang="tr">Etkinliklerinizi yönetin.</p>
+    <p xml:lang="ug">پائالىيەت باشقۇرىدۇ.</p>
     <p xml:lang="uk">Керування вашими подіями.</p>
     <p xml:lang="zh-CN">管理您的活动。</p>
     <p xml:lang="zh-TW">管理您的活動。</p>
@@ -111,6 +114,7 @@
       <caption xml:lang="sl">Agenda - mobilna različica</caption>
       <caption xml:lang="sv">Agenda - mobilversion</caption>
       <caption xml:lang="tr">Ajanda — Taşınabilir sürüm</caption>
+      <caption xml:lang="ug">كۈنتەرتىپ - كۆچمە نەشرى</caption>
       <caption xml:lang="uk">Порядок денний – мобільна версія</caption>
       <caption xml:lang="zh-CN">日程-移动版本</caption>
       <caption xml:lang="zh-TW">Agenda - 行動版</caption>
